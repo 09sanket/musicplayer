@@ -1,0 +1,677 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,400&family=Varela+Round&display=swap');
+
+body{
+    overflow: hidden;
+    top: 0px;
+    left: 0;
+    background-color: rgb(27, 27, 65);
+    
+}
+main{
+    height: 85vh;
+    overflow: scroll;
+    /* border: 2px solid mediumspringgreen; */
+    width: 70%;
+    /* justify-content: space-around; */
+}
+main::-webkit-scrollbar {
+    display: none;
+}
+nav{
+
+    /* border: 2px solid white; */
+    justify-content: space-between;
+    display: flex;
+    background-color:rgb(27, 27, 65);
+    height: 10vh;
+}
+nav ul {
+    left: 0;
+    /* border: 2px solid red; */
+    color: white;
+    width: 15rem;
+    height: 3rem;
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+   
+}
+#first-li{
+    margin-top: -1rem;
+    margin-left: -3.5rem;
+}
+#fav{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bolder;
+   /* border: 2px solid green; */
+   justify-content: space-around;
+   height: 1rem;
+}
+#imgs{
+    left: 0;
+    margin-top: -0.5rem;
+    height: 3rem;
+    width: 8rem;
+    justify-content: start;
+}
+.search{
+    display: flex;
+    /* border: 2px solid red; */
+    color: white;
+    padding: 15px;
+    /* margin-right: 225px; */
+    /* margin-top: 10px; */
+    /* padding-top: 5px; */
+    height: 30px;
+    width: 20rem;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.bell{
+   font-size: 2rem;
+
+}
+#myimage img{
+   /* border: 2px solid yellow; */
+   height: 3rem;
+   border-radius: 50%;
+   margin-top: -0.8rem;
+
+}
+
+
+/*  section 2===================================================================================== */
+.main-div{
+    /* width: 70%; */
+    height: auto ;
+    display: flex;
+    justify-content: space-around;
+   /* border: 2px solid yellow; */
+   margin-top: 5px;
+   /* justify-content: space-around; */
+}
+
+
+.firstdiv{
+    
+    /* border: 2px solid red; */
+    height: 15rem;
+    width: 15rem;
+
+}
+.firstdiv img{
+    height: inherit;
+}
+.firstdiv:hover , .seconddiv:hover, .thirddiv:hover{
+    transform: scale(1.2);
+}
+.seconddiv{
+    /* border: 2px solid green; */
+    height: 15rem;
+    width: 15rem;
+}
+.seconddiv img{
+    height: inherit;
+}
+.thirddiv{
+    /* border: 2px solid white; */
+    height: 15rem;
+    width: 15rem;
+}
+.thirddiv img {
+    height: inherit;
+}
+/* section 3 =============================================================================== */
+.latest-released{
+    height: auto;
+    /* border: 2px solid green; */
+    margin-top: 4px;
+}
+.latest-released-heading{
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+.latest-songs-main{
+    height: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+}
+.latest-songs{
+    display: flex;
+    /* border: 2px solid cyan; */
+    height: 6rem;
+    width: 25rem;
+}
+.latest-songs img{
+    height: 6rem;
+    width: 6rem;
+}
+.latest-songs img:hover{
+    opacity: 0.5;
+}
+.latest-songs-span{
+    
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid magenta; */
+}
+.latest-songs-span span{
+    text-align: center;
+    font-size: 1em;
+   height: 1rem;
+   width: 8rem;
+    /* border: 2px solid orangered; */
+}
+.font-bold{
+    font-weight: bolder;
+
+}
+.font-gray{
+    color: gray;
+}
+/*article =================================================================== */
+.popular-artist{
+    /* display: flex; */
+    /* border: 2px solid green; */
+
+}
+.popular-artist-heading{
+    /* height: 25rem; */
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    /* border: 2px solid red; */
+
+}
+.popular-artist-img{
+    /* height: 5rem; */
+    /* display: flex; */
+}
+.popular-main{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.Artist-img img{
+    height: 6rem;
+    border-radius: 50%;
+}
+.artist-span{
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+/*station-4 ====================================================================== */
+
+.station{
+    margin-top: 3rem;
+    background-color:rgb(27, 27, 90);
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+.station-1 img{
+    /* border: 2px solid red; */
+    height: 8rem;
+    border-radius: 15%;
+    /* width: 9rem; */
+
+}
+.station-img{
+
+    width: 70%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-around;
+}
+.station-img img{
+    margin-top: 1rem;
+    opacity: 0.7;
+    height: 5rem;
+    border-radius: 50%;
+   
+}
+/* ===================================================================================== */
+
+.item-main-class{
+
+}
+.item-secondry{
+
+    margin-top: 4rem;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    /* justify-content: center; */
+}
+.item-secondry p{
+    margin-top: 3.8rem;
+}
+.party{
+    background-size: contain;
+    height: 8rem;
+    width: 15rem;
+    background-image: url(party.png);
+
+}
+.electronic{
+    background-size: contain;
+    height: 8rem;
+    width: 15rem;
+    background-image: url(electronic.png.jpeg);
+
+}
+.roadtrip{
+    background-size: contain;
+    height: 8rem;
+    width: 15rem;
+    background-image: url(roadtrip.png);
+}
+@keyframes example {
+    from{
+        transform: scale(1,1);
+    }
+    to{
+        transform: scale(1.6 , 1.6);
+    }
+    
+}
+.party:hover{
+    /* transform: scale(1.2); */
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+
+}
+.electronic:hover{
+
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+
+}
+.roadtrip:hover{
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+
+}
+/* ============================================================================ */
+.latest-english{
+    margin-top: 4rem;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+.latest-english-img{
+
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+}
+.songs-eng span{
+    color: white;
+    display: flex;
+}
+.songs-eng{
+      
+    height: 6rem;
+}
+.songs-eng img{
+    height:inherit;
+    /* border: 2px solid white; */
+}
+/* ================================================================ */
+
+.bottom{
+    margin-top: 0.1rem;
+    position: sticky;
+    height: 4rem;
+    background-color: gray;
+    bottom:0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.icons{
+    margin-top: -3rem;
+    
+}
+.icons i {
+    padding: 0.5rem;
+    cursor: pointer;
+}
+#myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+/* ======================================================================== */
+#extra{
+    display: flex;
+}
+.main-aside{
+    height: 85vh;
+    overflow: scroll;
+    /* border: 2px solid red; */
+    width: 30%;
+}
+.main-aside::-webkit-scrollbar {
+    display: none;
+}
+.aside-text{
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.main-bar{
+    height: 3rem;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    /* border: 2px solid cyan; */
+    display: flex;
+    flex-direction: column;
+}
+.inner-main-bar{
+
+    display: flex;
+    justify-content: space-around;
+}
+.song-img img{
+    
+    height: 2rem;
+}
+.song-num{
+    font-size: 1rem;
+    margin-top: -0.8rem;
+    margin-left: 0.2rem;
+    margin-right: 0.5rem;
+    /* border: 2px solid red; */
+}
+.song-img{
+    
+    /* border: 2px solid green; */
+}
+.song-heart{
+    margin-top: 0.5rem;
+    margin-left: 9rem;
+    /* border: 2px solid white; */
+
+}
+.song-span{
+    display: flex;
+    font-size: 0.7rem;
+    margin-top: 0.2rem;
+    flex-direction: column;
+   width: 6rem;
+    margin-left: 0.5rem;
+    /* border: 2px solid magenta; */
+
+}
+.song-heart:hover{
+    color: red;
+}
+/* ============================================================================================== */
+
+footer {
+	position: absolute;
+	bottom: 1px;
+    color: white;
+	width: 100%;
+	height: 60px;
+	background-color: #3e3e3e;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	flex-wrap: nowrap;
+	padding: 0px 3%;
+	box-sizing: border-box;
+	z-index: 6;
+}
+/* footer is divided into 3 parts */
+/* 1. first part of the footer */
+.active-song-description {
+	/* border:1px solid white; */
+    color: white;
+	height: 90%;
+	width: 25%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+/* the current song which is being played, this is the image container for that. */
+#song-image {
+	width: 50px;
+	height: 50px;
+	min-width: 50px;
+	min-height: 50px;
+}
+/* current song image */
+#song-image img {
+	width: 100%;
+	height: 100%;
+}
+/* heart and ban icon */
+.heart-and-ban-icon {
+	height: 100%;
+	padding-top: 4%;
+}
+/* song decscription */
+.song-desc {
+	margin-right: 1%;
+	margin-left: 1%;
+}
+/* song name */
+.song-desc div:nth-child(1) {
+	font-size: 14px;
+}
+/* song author */
+.song-desc div:nth-child(2) {
+	font-size: 12px;
+}
+
+/* 2. Second part of the footer*/
+.player {
+    color: white;
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+}
+/* controls is the container for all the center controls of the player */
+.controls {
+    color: white;
+	width: 40%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 20px;
+}
+/* this is the song-duration slider */
+#slider {
+    color: white;
+	width: 100%;
+	font-size: 12px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5px;
+}
+/* ////////// */
+.time {
+	margin: 0px 10px;
+}
+
+/* adjusting the slider for better visuals */
+.slidecontainer {
+	width: 100%;
+}
+/* for audio and main center player */
+.slider {
+	-webkit-appearance: none;
+	width: 100%;
+	height: 5px;
+	background: #d3d3d3;
+	outline: none;
+	opacity: 0.5;
+	-webkit-transition: 0.2s;
+	transition: opacity 0.2s;
+}
+/* hover effect for the slider */
+.slider:hover {
+	opacity: 1;
+}
+/* these are for adjusting the dimensions and default styling of the long-slider */
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 17px;
+	height: 17px;
+	border-radius: 50%;
+	background: #007bff;
+	cursor: pointer;
+}
+/* this is the circular thumb, which can be moved across the div */
+.slider::-moz-range-thumb {
+	width: 25px;
+	height: 25px;
+	background: #4caf50;
+	cursor: pointer;
+}
+
+/* third part of the footer */
+/* this contains the extra icons and slider for volume */
+/* this is also a container */
+.extras {
+	width: 20%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* DROPDOWN MENU */
+#lightbox {
+    color: black;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 0;
+    position: fixed;
+    overflow: hidden;
+    transition: 2ms ease-in-out;
+}
+
+#lightbox p {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+}
+
+#lightbox a {
+    margin-left: 10rem;
+}
+
+.icon {
+    color: white;
+}
+
+#lightbox .dots {
+    color: black;
+}
+
+#lightbox:target {
+    height: 35%;
+    width: 15%;
+    background-color: snow;
+    top: 50%;
+    left: 40%;
+    transition: 2ms ease-in-out;
+}
+
+/* ===============================================================
+ */
+
+ @media  only screen and (max-width:1000px) {
+    .popular-main{
+        overflow-x: scroll;
+        /* margin-top: 2rem; */
+    }    
+    .popular-artist{
+        margin-top: 6rem;
+    }
+    .extra{
+        flex-direction: ro;
+    }
+ 
+ .search{
+    opacity: 0;
+ }
+    .station{
+        overflow-x: scroll;
+    }    
+}
+
+@media (max-width:900px) {
+    body{
+        width: auto;
+    }
+
+   #extra{
+    width: 100%;
+    flex-direction: column;
+   }
+   main{
+    width: 100%;
+   }
+   .main-div{
+
+    
+    overflow: scroll;
+   }
+   .latest-english{
+    height: auto;
+    /* overflow: scroll; */
+  
+   }
+   .songs-eng{
+    height: 3rem;
+    width: 3rem;
+    flex-wrap: wrap;
+
+   }
+   .songs-eng span{
+    font-size: 0.5rem;
+   
+   }
+   .Artist-img{
+    height: 4rem;
+    width: 4rem;
+    /* border-radius: 100%; */
+    overflow: scroll;
+   }
+   .artist-span{
+    font-size: 0.5rem;
+   }
+    
+}

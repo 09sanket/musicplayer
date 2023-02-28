@@ -1,0 +1,461 @@
+body{
+    left: 0;
+    top: 0;
+    background-color:rgb(27, 27, 65);
+}
+nav{
+
+    /* border: 2px solid white; */
+    justify-content: space-between;
+    display: flex;
+    background-color:rgb(27, 27, 65);
+    height: 10vh;
+}
+nav ul {
+    left: 0;
+    /* border: 2px solid red; */
+    color: white;
+    width: 15rem;
+    height: 3rem;
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+   
+}
+#first-li{
+    margin-top: -1rem;
+    margin-left: -3.5rem;
+}
+#fav{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bolder;
+   /* border: 2px solid green; */
+   justify-content: space-around;
+   height: 1rem;
+   
+   
+   
+}
+#imgs{
+    left: 0;
+    /* margin-top: -0.5rem; */
+    height: 3rem;
+    width: 8rem;
+    justify-content: start;
+}
+.search{
+    display: flex;
+    /* border: 2px solid red; */
+    color: white;
+    padding: 15px;
+    /* margin-right: 225px; */
+    /* margin-top: 10px; */
+    /* padding-top: 5px; */
+    height: 30px;
+    width: 20rem;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.bell{
+   font-size: 2rem;
+
+}
+#myimage img{
+   /* border: 2px solid yellow; */
+   height: 3rem;
+   border-radius: 50%;
+   margin-top: -0.8rem;
+
+}
+/* ==================================================================================== */
+.main-container{
+    justify-content: space-around;
+    /* border: 2px solid salmon; */
+    height: 85vh;
+    display: flex;
+
+}
+.primary{
+
+    /* border: 2px solid magenta; */
+    width: 60%;
+}
+.cold-play{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid khaki; */
+    height: 40vh;
+}
+.cold-play-image img{
+      height: 15rem;
+      opacity: 0.8;
+}
+.cold-play-info{
+    margin-left: 1rem;
+    margin-right: 4rem;
+    /* border: 4px solid mediumorchid; */
+}
+.cold-play-info-heading{
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+
+}
+.cold-play-info span{
+    margin-top: 2rem;
+    font-size: 0.7rem;
+    color: gray;
+}
+.cold-play-info-para{
+    text-align: justify;
+    color: gray;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+.cold-play-info-buttons{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.one-button , .two-button{
+    border-radius: 10rem;
+     color: white;
+    background: linear-gradient(#e38989, #9fa5df);
+    padding: 0.5rem 2rem;
+    
+
+}
+
+/* =============================================================================== */
+.cold-play-songs{
+    /* border: 2px solid greenyellow; */
+    height: 43.7vh;
+
+}
+.main-bar{
+    
+    height: 3rem;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    /* border: 2px solid cyan; */
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    /* justify-content: space-around; */
+}
+.inner-main-bar{
+    background-color:rgb(27, 27, 85);
+    margin: 0.4rem;
+    display: flex;
+    justify-content: space-around;
+}
+.song-img img{
+    
+    height: 2.5rem;
+}
+.song-num{
+    font-size: 1rem;
+    margin-top: -0.4rem;
+    color: gray;
+    margin-left: 0.2rem;
+    margin-right: 0.5rem;
+    /* border: 2px solid red; */
+}
+.font-bold{
+    font-weight: bolder;
+}
+.font-gray{
+    color: gray;
+}
+.song-img{
+    
+    /* border: 2px solid green; */
+}
+.song-heart{
+    margin-top: 1rem;
+    /* margin-left: 7rem; */
+    /* border: 2px solid white; */
+
+}
+.song-span{
+    display: flex;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    flex-direction: column;
+     width: 35rem;
+    /* margin-left: 2rem; */
+    /* border: 2px solid magenta; */
+
+}
+.song-heart:hover{
+    color: red;
+}
+/* ====================================================================== */
+.coldplay-secondary{
+    width: 30%;
+    /* border: 2px solid white; */
+}
+.similar-artist{
+    /* border: 2px solid yellow; */
+    /* justify-content: center; */
+    padding-left: 1.5rem;
+    height: 36vh;
+    margin-bottom: 5rem;
+}
+.similar-artist-span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    /* font-weight: bolder; */
+    font-size: 1.5em;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bolder;
+}
+
+
+/* ============================================================================================================= */
+
+.latest-released{
+    margin-top: 0px;
+    height: 300px;
+    padding-bottom: 4rem;
+    /* border: 2px solid white; */
+}
+.latest-released p{
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inner-latest{
+    /* border: 2px solid yellow; */
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+}
+.latest-song{
+    height: 5rem;
+    width: 24rem;
+    display: flex;
+    flex-direction:row;
+    /* border: 2px solid seashell; */
+}
+.latest-song-img{
+    /* border: 2px solid cyan; */
+    width: 30%;
+    /* height: ; */
+    margin: auto;
+}
+.latest-song-img img{
+    height: 4.5rem;
+}
+.kpop-img:hover{
+    opacity: 0.7;
+}
+.latest-song-info{
+    display: flex;
+    height: 80px;
+    width: auto;
+    margin: auto;
+    flex-wrap:wrap ;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    color: white;
+    /* border: 2px solid greenyellow; */
+    /* height: 20px; */
+    text-align: center;
+}
+.latest-song-info span{
+    height: 1rem;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 2px solid yellowgreen; */
+    width:9rem;
+}
+.font-bold{
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+.font-gray{
+    font-size: 0.8em;
+    color: gray;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* CSS FOR RECENTLY PLAYED */
+
+.aside{
+    /* border: 2px solid white; */
+    /* width: 30%; */
+    height: 30vh;
+    overflow: scroll;
+    /* overflow-y: hidden; */
+    /* overflow-x: hidden; */
+    /* position: absolute; */
+    /* right: 0; */
+    /* visibility: hidden; */
+}
+.aside::-webkit-scrollbar {
+    display: none;
+}
+.aisde-main-heading{
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-family: 'Varela Round', sans-serif;
+    /* margin-left: 1rem; */
+    color: white;
+}
+.aside-heading{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Varela Round', sans-serif;
+    /* color: white; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    /* border: 2px solid yellow; */
+}
+.aside-heading-span{
+    /* color: white; */
+    /* border: 2px solid white; */
+    margin-left: 3.5rem;
+    font-size: 1rem;
+}
+.aside-songs{
+    /* border: 2px solid red; */
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.aside-song-number{
+    /* border: 2px solid yellow; */
+    height: 3rem;
+    width: 3rem;
+    /* text-align: center; */
+    color: white;
+}
+.aside-song-number h5{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0.8rem;
+}
+.aside-song-img{
+    /* border: 2px solid pink; */
+    height: 2.5rem;
+}
+.aside-song-img img{
+    height: inherit;
+}
+.aside-song-name{
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0.3rem;
+    width: 14rem;
+}
+.aside-song-name span{
+    margin-left: 1rem;
+    /* border: 2px solid gray; */
+}
+.aside-song-heart{
+    /* border: 2px solid yellowgreen; */
+    width: 3rem;
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 0.8rem;
+}
+.aside-song-heart:hover{
+    color: red;
+    transform: scale(1.2);
+}   
+.recently-played{
+    height: 48vh;
+    overflow: scroll;
+    /* border: 2px solid snow; */
+}
+.recently-played::-webkit-scrollbar {
+    display: none;
+}
+.aside-songs{
+    background-color: rgb(27, 27, 90);
+    /* border: 2px solid red; */
+    margin-top: 1rem;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.aside-song{
+    /* background-color: rgb(27, 27, 90); */
+    /* border: 2px solid red; */
+    margin-top: 1rem;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.aside-song-number{
+    /* border: 2px solid yellow; */
+    height: 3rem;
+    width: 3rem;
+    /* text-align: center; */
+    color: white;
+}
+.aside-song-number h5{
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0.8rem;
+}
+.aside-song-img{
+    /* border: 2px solid pink; */
+    height: 3rem;
+}
+.aside-song-img img{
+    height: inherit;
+}
+.aside-song-name{
+    width: 40rem;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0.3rem;
+    /* width: 14rem; */
+}
+.aside-song-name span{
+    margin-left: 1rem;
+    /* border: 2px solid gray; */
+}
+.aside-song-plus{
+    color: white;
+    font-size: 1.3rem;
+    width: 2rem;
+    text-align: center;
+    margin-top: 0.7rem;
+    /* border: 2px solid white; */
+}
+.aside-song-plus:hover{
+    color: goldenrod;
+    font-size: 1.5rem;
+}
+.aside-song-heart{
+    /* border: 2px solid yellowgreen; */
+    width: 3rem;
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 0.8rem;
+}
+.aside-song-heart:hover{
+    color: red;
+    transform: scale(1.2);
+}
